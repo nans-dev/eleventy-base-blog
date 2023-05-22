@@ -1,0 +1,23 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "command": "npx @11ty/eleventy --serve",
+      "name": "debug",
+      "request": "launch",
+      "type": "node-terminal",
+      "env": {
+        "DEBUG":"Eleventy* npx @11ty/eleventy"
+      }
+    },
+    {
+      "command": "npx @11ty/eleventy --serve",
+      "name": "serve",
+      "request": "launch",
+      "type": "node-terminal",
+      "env": {
+        "DEBUG":""
+      }
+    }
+  ]
+}
